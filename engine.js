@@ -85,7 +85,7 @@ function comparaPecas(){
     if((letras[0] == letras[1]) && (pecas[0] != pecas[1]))
     {
         tocaSom("woohoo.wav");
-        alert("Uhu!");
+        //alert("Uhu!");
         pontos[jogadorAtual]++;
         document.getElementById(pecas[0]+letras[0]).onclick = '';
         document.getElementById(pecas[1]+letras[1]).onclick = '';
@@ -107,7 +107,7 @@ function comparaPecas(){
             , name: letras[1]
         });
         tocaSom("doh.wav");
-        alert("Daugh!");
+        //alert("Daugh!");
         $("#"+pecas[0]+letras[0]).html(img[0]);
         $("#"+pecas[1]+letras[1]).html(img[1]);
         return false;
