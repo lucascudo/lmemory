@@ -1,0 +1,80 @@
+/* 
+    Document   : style
+    Created on : 14/11/2012, 19:33:17
+    Author     : lucas
+    Description:
+        Make it pretty
+*/
+*{
+    margin: 0;
+}
+root
+{
+    display: block;
+    margin: 0;
+}
+body
+{
+    color: #4c4a3e;
+    background-color: #cc79a7;
+    font-family: cursive;
+    text-align: center;
+}
+#controle
+{
+    background-color: #dad9a9;
+    width: 866px;
+    margin: 0 auto;
+}
+#controle p
+{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 5px;
+}
+#container
+{
+    text-align: center;
+    width: 866px;
+    height: 650px;
+    background-image: url("img/bg.jpg");
+    margin: 0 auto;
+}
+#content
+{
+    display: table;
+}
+#content, #botao
+{
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+}
+#l, #r, #tabuleiro
+{
+    display: table-cell;
+    padding: 50px;
+    margin: 0 auto;
+}
+#jogadorAtual
+{
+    font-size: large;
+    margin-top: -50px;
+    padding: 10px;
+}
+img
+{
+    margin: 5px;
+}
+img.fl
+{
+    margin-bottom: -10px;
+}
+.rosa
+{
+    color: #cc79a7;
+}
+.big
+{
+    font-size: 32px;
+}

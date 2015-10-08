@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--****************************************
+*   Sistema desenvolvido por Lucas Rocha   *
+*       www.lucas.redeaberta.com.br  	   *
+*         ©Copyleft 2012 - today          *
+*****************************************-->
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Lully's Memory</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="jquery/css/sunny/jquery-ui-1.8.20.custom.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="jquery/js/jquery-ui-1.8.20.custom.min.js"></script>
+    <script type="text/javascript" src="engine.js"></script>
+    <!--
+    <style type="text/css"> @import url("bootstrap/css/bootstrap-responsive.min.css"); </style>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    -->
+</head>
+
+<body>
+    <header id="controle">
+        <p><font class="rosa">L</font>u<font class="rosa">l</font>l<font class="rosa">y</font>'<font class="rosa">s</font> M<font class="rosa">e</font>m<font class="rosa">o</font>r<font class="rosa">y</font></p>
+    </header>
+    <section id ="container">
+        <section id="content">
+            <aside id="l">
+                <img class="fl" src="img/fl1.png">
+                <p id="placar1"></p>
+            </aside>
+            <section id="tabuleiro">
+                <div id="galeria"></div>
+                <div>
+                    <label>Nome do jogador 1</label> <input type="text" id="jogador0" value="jogador 1"><br>
+                    <label>Nome do jogador 2</label> <input type="text" id="jogador1" value="jogador 2">
+                </div>
+            </section>
+            <aside id="r">
+                <img class="fl" src="img/fl2.png">
+                <p id="placar2"></p>
+            </aside>
+        </section>
+        <footer id="botao">
+            <input type="button" onclick="tabuleiro();" value="Novo jogo">
+        </footer>
+    </section>
+    <br>
+    <span id="snd"></span>
+</body>
+</html>
